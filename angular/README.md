@@ -1,0 +1,7 @@
+###Basic angular boilerplate to be used for interviews.
+
+#### Quick Start
+
+* run ```npm install``` to install gulp and bower dependencies
+* run ```npm start``` to launch the web server
+* Access the boilerplate app at [http://localhost:8080](http://localhost:8080)
