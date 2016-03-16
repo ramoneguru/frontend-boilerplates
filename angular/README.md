@@ -1,5 +1,7 @@
 ###Basic angular boilerplate to be used for interviews.
 
+This app includes JQuery and UI-Router support.
+
 #### Quick Start
 
 * run ```npm install``` to install gulp and bower dependencies
