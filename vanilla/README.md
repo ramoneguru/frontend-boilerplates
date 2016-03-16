@@ -1,5 +1,9 @@
-# Vanilla JS
+###Basic Vanilla JS boilerplate to be used for interviews.
 
-This is a very simple blank HTML/CSS/JS boilerplate. jQuery available and loaded by default. the default gulp process runs a webserver with livereload and file watchers.
+This is a very simple blank HTML/CSS/JS boilerplate with JQuery and Bootstrap support
 
-If you want framework specific tasks please use one of the other directories to save everyone time setting up boilerplate code.
+#### Quick Start
+
+* run ```npm install``` to install gulp and bower dependencies
+* run ```npm start``` to launch the web server
+* Access the boilerplate app at [http://localhost:8080](http://localhost:8080)
