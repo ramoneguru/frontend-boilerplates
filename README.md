@@ -1,4 +1,4 @@
-Frontend Interview boilerplates
+## Frontend Interview boilerplates
 
 This repo contains a collection of basic boilerplate apps in various modern frontend frameworks to be used during Frontend Engineer interviews
 
