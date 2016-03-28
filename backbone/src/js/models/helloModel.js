@@ -4,9 +4,9 @@ var app = app || {};
 (function () {
   'use strict';
 
-  app.Target = Backbone.Model.extend({
+  app.HelloModel = Backbone.Model.extend({
     getValue: function () {
-      return 'World';
+      return 'Hello World';
     }
   });
 })();

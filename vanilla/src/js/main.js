@@ -1,3 +1,3 @@
 (function () {
-  $('.target').text('World');
+  $('.main').text('Hello World');
 })();

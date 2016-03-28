@@ -8,13 +8,13 @@ var app = app || {};
     el: 'body',
 
     initialize: function () {
-      this.$targetEl = this.$('.target');
-      this.target = new app.Target();
+      this.$helloEl = this.$('.main');
+      this.hello = new app.HelloModel();
       this.render();
     },
 
     render: function () {
-      this.$targetEl.text(this.target.getValue());
+      this.$helloEl.text(this.hello.getValue());
     }
   });
 })(jQuery);
