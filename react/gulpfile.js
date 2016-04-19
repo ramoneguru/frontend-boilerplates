@@ -9,7 +9,8 @@ gulp.task('browserify', function() {
     .transform('babelify', {presets: ["react"]})
     .bundle()
     .pipe(source('app.js'))
-    .pipe(gulp.dest('./src/dist'));
+    .pipe(gulp.dest('./src/dist'))
+    .pipe(connect.reload());
 });
 
 gulp.task('connect', function() {
@@ -20,5 +21,9 @@ gulp.task('connect', function() {
   });
 });
 
+gulp.task('watch', function () {
+  gulp.watch('./src/app/**/*.js', ['browserify'])
+});
+
 gulp.task('default', ['browserify']);
-gulp.task('serve', ['browserify', 'connect']);
+gulp.task('serve', ['connect', 'watch']);
