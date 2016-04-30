@@ -1,4 +1,4 @@
 angular.module('app')
-.controller('HomeCtrl', ['$scope', function($scope) {
+.controller('HomeCtrl', ['$scope', ($scope) => {
   $scope.target = 'World';
 }]);
