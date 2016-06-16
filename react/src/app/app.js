@@ -7,12 +7,18 @@ var hashHistory = require('react-router').hashHistory;
 
 var Home = require('./components/Home');
 var Hello = require('./components/Hello');
+var Header = require('./components/Header');
+var Footer = require('./components/Footer');
+
+require('../css/main.css');
 
 var App = React.createClass({
   render: function () {
     return (
       <div>
+        <Header />
         {this.props.children}
+        <Footer />
       </div>
     );
   }
